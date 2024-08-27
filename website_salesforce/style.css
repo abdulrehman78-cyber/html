@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 16%;
+    width: 100%;
+   position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+#fakeheader{
+    height: 16%;
+    width: 100%;
+
+}
+#logo{
+    height: 75%;
+    margin: 20px;
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.text{
+    color: rgb(2, 2, 81);
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    display: flex;
+    &:hover{
+        color: rgb(133, 180, 196);
+    }
+}
+
+#contactdetails{
+    margin-left: 50px;
+    font-weight: lighter;
+    &:hover{
+        color: rgb(100, 100, 248);
+    }
+}
+.icon{
+    margin-left: 7px;
+    font-size: large;
+    padding: 10px;
+    border-radius: 50px;
+    &:hover{
+        background-color: lightblue;
+    }
+}
+
+#login{
+    display: flex;
+    margin-left: 7px;
+    border-radius: 50px;
+    padding: 10px;
+    &:hover{
+        background-color: lightblue;
+    }
+}
+
+#try{
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(31, 183, 31);
+    padding:10px 20px;
+    border-radius: 5%;
+    &:hover{
+        background-color: darkgreen;
+    }
+}
+#page1{
+    height: 84%;
+    width: 100%;   
+}
+#strip{
+    height: 8%;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 4, 120);
+    display: flex;
+}
+#content{
+    height: 76%;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#box1{
+    height:90% ;
+    width: 47%;
+    background-color: rgb(255, 255, 255);
+}
+#box2{
+    height:90% ;
+    width: 47%;
+}
+#box2 video{
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    margin-top: 6%;
+    margin-left: 4%;
+    z-index: 10;
+}
+#box2 img{
+    z-index: 5;
+    object-fit: cover;   
+    height: 100%;
+    width: 100%;
+}
+
+#heading{
+    height: 16%;
+    width: 100%;
+    color: rgb(2, 7, 92);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+#heading h1{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box1 h1{
+    color: darkblue;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 30px 10px;
+}
+#box1 p{
+    font-size: x-large;
+    margin:10px;
+    font-weight: lighter;
+    margin: 30px 10px;
+}
+#btns{
+    display: flex;
+    margin:10px;
+}
+#btn1{
+    text-align: center;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 50, 192);
+    width: 23%;
+    border-radius: 5px;
+    &:hover{
+        background-color: darkblue;
+    }
+}
+#btn2{
+    text-align: center;
+    padding: 10px 20px;
+    color: rgb(0, 71, 165);
+    width: 23%;
+    border :2px solid lightblue;
+    margin-left: 20px;
+    border-radius: 5px;
+    &:hover{
+        background-color: rgb(171, 171, 231);
+        color: darkblue;
+        border-color: darkblue;
+    }
+}
+#page2{
+    height: 84%;
+    width: 100%;
+}
+#head{
+    display: flex;
+    margin: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+#footer{
+    display: flex;
+    background-color: white;
+    padding: 20px 10px;
+    margin:40%;
+    margin-top: -20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid darkblue;
+    border-color:  darkblue;
+    border-radius: 10px;
+    color: rgb(37, 37, 220); 
+    &:hover{
+        background-color: rgb(171, 171, 231);
+        color: darkblue;
+        border-color: darkblue;
+        
+    } 
+}
+#footer p{
+    font-size: x-large;
+}
+#page2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+

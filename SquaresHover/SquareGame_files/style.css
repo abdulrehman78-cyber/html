@@ -1,0 +1,48 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width: 100%;
+    background-color: rgb(246, 211, 207);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+}
+.Shape{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height:200px;
+    width: 200px;
+    border: 1px solid black;
+}
+#square:hover{
+background-color: blue;
+}
+#circle{
+    border-radius: 50%;
+}
+#circle:hover{
+ background-color: yellowgreen;
+}
+#diamond{
+    margin-top: 50px;
+    rotate: 45deg;
+}
+#diamond:hover{
+    background-color: skyblue;
+}
+#diamond h1{
+    rotate:-45deg;
+}
